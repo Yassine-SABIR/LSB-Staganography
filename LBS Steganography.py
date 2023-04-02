@@ -56,6 +56,6 @@ image_hiding = hiding(image_gray, Text)
 
 Text2 = getting(image_hiding)
 
-cv2.imshow("Originale", image_gray)
+cv2.imshow("Original", image_gray)
 cv2.imshow("Hiding", image_hiding)
 print("Hidden Text: ",Text2)
